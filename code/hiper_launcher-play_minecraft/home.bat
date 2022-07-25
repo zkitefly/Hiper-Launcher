@@ -6,13 +6,15 @@ title Hiper Launcher - Play Minecraft
 ::设置窗口大小
 mode con cols=70 lines=14
 
+goto home
+
+:home-0
 cls
 goto home
 
 :home
-cls
 
-color 8f
+color 1f
 
 cd %appdata%\hiper_launcher-play_minecraft\
 
@@ -32,6 +34,9 @@ if “%mm%”==“i” call installTab.bat
 @echo off
 cls
 mode con cols=80 lines=17
+
+color df
+
 echo. ————————————————关于——————————————————
 echo.
 echo. 本程序为制作简易的，简化了使用 Hiper 使用门槛，使用 Hiper 辅助 Minecraft 联机的工具
@@ -48,4 +53,4 @@ echo. 按两次任意键返回主页
 set /p ZC=
 if “%zc%”==“z” start https://zkitefly.github.io/zanzhu.png
 pause>nul
-goto home
+goto home-0
