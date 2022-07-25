@@ -23,6 +23,8 @@ color 2f
 
 echo. 安装程序已退出，安装成功！
 echo. 按任意键继续...
+
+@echo off
 timeout /T 3
 
-call %appdata%\hiper_launcher-play_minecraft\experience\experience.bat
+call %appdata%\hiper_launcher-play_minecraft\experience.bat
