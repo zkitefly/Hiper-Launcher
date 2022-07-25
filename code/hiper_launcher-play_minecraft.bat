@@ -34,22 +34,22 @@
 ::978f952a14a936cc963da21a135fa983
 @echo off
 
-::ÉèÖÃ±êÌâ
+::è®¾ç½®æ ‡é¢˜
 title Update...
 
-::ÉèÖÃ´°¿Ú´óĞ¡
+::è®¾ç½®çª—å£å¤§å°
 mode con cols=70 lines=14
 
-echo. ÕıÔÚ¼ì²éÎÄ¼ş¸üĞÂ...
+echo. æ­£åœ¨æ£€æŸ¥æ–‡ä»¶æ›´æ–°...
 
-::¼ì²éÎÄ¼ş¸üĞÂ
+::æ£€æŸ¥æ–‡ä»¶æ›´æ–°
 %appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -S -N -t 5 -o %appdata%\hiper_launcher-play_minecraft\hpr.exe-update.log  https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr.exe
 
 %appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -S -N -t 5 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr_env.exe
 
 %appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -S -N -t 5 -o %appdata%\hiper_launcher-play_minecraft\hiper-windows-i386.exe-update2.log https://gitcode.net/chearlai/hiper/-/raw/master/hiper-windows-i386.exe
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -S -N -t 5 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://zkitefly.github.io/Hiper-Launcher/code/hiper_launcher-play_minecraft/home.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -S -N -t 5 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://github.com/zkitefly/Hiper-Launcher/raw/main/code/hiper_launcher-play_minecraft.bat
 
 cls
 
