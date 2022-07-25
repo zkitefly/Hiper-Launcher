@@ -38,9 +38,11 @@ echo.
 echo. -----------Minecraft 联机教程-----------
 echo. 创建方：
 echo. 运行 Hiper 后，在日志中找到 CORE ipv4[ 和 ] 之间的IP，如6.0.0.1，然后启动游戏，对局域网开放，
-echo. 将 IP 和开放的端口组合成 IP:端口，如 6.0.0.1:25565 ,并将此发送给加入方
+echo. 将 IP 和开放的端口组合成 IP:端口，如 6.0.0.1:25565 ,并将此发送给加入方；
 echo. 加入方：
 echo. 运行 Hiper 后，启动游戏，进入“多人游戏”》“直接连接”，输入创建方发的文本加入即可！
+echo. 
+echo. 注意，注意，体验版和凭证版式不互通的，联机时请用相同的 Hiper 版本。创建方和加入方凭证需不相同。
 echo. 在此处可以查看相关常见问题：https://zkitefly.github.io/hiper-d/222.html
 echo. ————————————————————
 echo. 按任意键运行 Hiper ...
@@ -72,8 +74,6 @@ if not exist C:\Windows\System32\drivers\tap0901.sys goto installTab
 mode con cols=100 lines=30
 echo. 虚拟网卡已安装
 
-title Hiper 试用 30 分钟版本
-
 color 8b
 
 echo. 
@@ -83,6 +83,8 @@ echo. 运行 Hiper 后，在日志中找到 "cidr":" 和 /7" 之间的IP，如6.11.210.233，然后
 echo. 将 IP 和开放的端口组合成 IP:端口，如 6.11.210.233:25565 ,并将此发送给加入方
 echo. 加入方：
 echo. 运行 Hiper 后，启动游戏，进入“多人游戏”》“直接连接”，输入创建方发的文本加入即可！
+echo. 
+echo. 注意，体验版和凭证版式不互通的，联机时请用相同的 Hiper 版本
 echo. 在此处可以查看相关常见问题：https://zkitefly.github.io/hiper-d/222.html
 echo. ————————————————————
 echo. 按任意键运行 Hiper ...
