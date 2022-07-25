@@ -72,7 +72,7 @@ if not exist C:\Windows\System32\drivers\tap0901.sys goto installTab
 mode con cols=100 lines=30
 echo. 虚拟网卡已安装
 
-title | Hiper 试用 30 分钟版本 |
+title Hiper 试用 30 分钟版本
 
 color 8b
 
