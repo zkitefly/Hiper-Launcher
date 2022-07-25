@@ -9,5 +9,4 @@ cd /d %~dp0
 
 tap_install.exe install OemVista.inf tap0901
 
-timeout /t 5
 
