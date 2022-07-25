@@ -49,13 +49,13 @@ echo. 正在检查文件更新，可能需要较长时间...
 
 %appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hiper-windows-i386.exe-update2.log https://gitcode.net/chearlai/hiper/-/raw/master/hiper-windows-i386.exe
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/experience.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\experience.bat.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/experience.bat
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/home.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/home.bat
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/installTab.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\installTab.bat.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/installTab.bat
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/raw/hiper_launcher-play_minecraft/token.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\token.bat.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/token.bat
 
 cls
 
