@@ -40,16 +40,16 @@ title Update...
 ::设置窗口大小
 mode con cols=70 lines=14
 
-echo. 正在检查文件更新...
+echo. 正在检查文件更新，可能需要较长时间...
 
 ::检查文件更新
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -S -N -t 5 -o %appdata%\hiper_launcher-play_minecraft\hpr.exe-update.log  https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr.exe
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -N -S -t 10 -O hpr.exe -o %appdata%\hiper_launcher-play_minecraft\hpr.exe-update.log  https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr.exe
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -S -N -t 5 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr_env.exe
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -N -S -t 10 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr_env.exe
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -S -N -t 5 -o %appdata%\hiper_launcher-play_minecraft\hiper-windows-i386.exe-update2.log https://gitcode.net/chearlai/hiper/-/raw/master/hiper-windows-i386.exe
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -N -S -t 10 -o %appdata%\hiper_launcher-play_minecraft\hiper-windows-i386.exe-update2.log https://gitcode.net/chearlai/hiper/-/raw/master/hiper-windows-i386.exe
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -S -N -t 5 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://github.com/zkitefly/Hiper-Launcher/raw/main/code/hiper_launcher-play_minecraft.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -t 10 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://cdn.githubraw.com/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/home.bat
 
 cls
 
