@@ -27,7 +27,7 @@
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRkCCI634PDRlusG5LE9yFWaEBt8FQ4IfqGZiT24jEfz06SLMmjyHsMYr7sk2H9ZisoKGJyimpd8q4rRfu2iVOJ5+0BUWIo7pc1pGcLZz+GuYSPYmD8rc4kn1cQKxyir/gP8kKhfiCyrDfBeRjq1jqRhKMwS/BqkCA==
-::Zh4grVQjdCyDJGyX8VAjFDpQQQ2MNXiuFLQI5/rHy++UqVkSRN48d4ve5qCLOPRd713hFQ==
+::Zh4grVQjdCyDJGyX8VAjFDpQQQ2MNXiuFLQI5/rHy++UqVkSRN48d4ve5ryHMOUB1UnlYJgu3n9I1dsADQJncxulawwmqGhW+GGdMqc=
 ::YB416Ek+ZW8=
 ::
 ::
@@ -43,19 +43,19 @@ mode con cols=70 lines=14
 echo. 正在检查文件更新，可能需要较长时间...
 
 ::检查文件更新
-::%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr.exe-update.log  https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr.exe
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr.exe-update.log  https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr.exe
 
-::%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr_env.exe
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr_env.exe
 
-::%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hiper-windows-i386.exe-update2.log https://gitcode.net/chearlai/hiper/-/raw/master/hiper-windows-i386.exe
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hiper-windows-i386.exe-update2.log https://gitcode.net/chearlai/hiper/-/raw/master/hiper-windows-i386.exe
 
-::%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://gitcode.net/chearlai/hiper/-/raw/hiper_launcher-play_minecraft/experience.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/experience.bat
 
-::%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://gitcode.net/chearlai/hiper/-/raw/hiper_launcher-play_minecraft/home.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/home.bat
 
-::%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://gitcode.net/chearlai/hiper/-/raw/hiper_launcher-play_minecraft/installTab.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/installTab.bat
 
-::%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://gitcode.net/chearlai/hiper/-/raw/hiper_launcher-play_minecraft/token.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/raw/hiper_launcher-play_minecraft/token.bat
 
 cls
 
