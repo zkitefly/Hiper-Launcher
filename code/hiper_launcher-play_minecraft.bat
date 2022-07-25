@@ -34,22 +34,22 @@
 ::978f952a14a936cc963da21a135fa983
 @echo off
 
-::è®¾ç½®æ ‡é¢˜
+::ÉèÖÃ±êÌâ
 title Update...
 
-::è®¾ç½®çª—å£å¤§å°
+::ÉèÖÃ´°¿Ú´óĞ¡
 mode con cols=70 lines=14
 
-echo. æ­£åœ¨æ£€æŸ¥æ–‡ä»¶æ›´æ–°ï¼Œå¯èƒ½éœ€è¦è¾ƒé•¿æ—¶é—´...
+echo. ÕıÔÚ¼ì²éÎÄ¼ş¸üĞÂ£¬¿ÉÄÜĞèÒª½Ï³¤Ê±¼ä...
 
-::æ£€æŸ¥æ–‡ä»¶æ›´æ–°
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -N -S -t 10 -O hpr.exe -o %appdata%\hiper_launcher-play_minecraft\hpr.exe-update.log  https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr.exe
+::¼ì²éÎÄ¼ş¸üĞÂ
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr.exe-update.log  https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr.exe
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -N -S -t 10 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr_env.exe
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr_env.exe
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -N -S -t 10 -o %appdata%\hiper_launcher-play_minecraft\hiper-windows-i386.exe-update2.log https://gitcode.net/chearlai/hiper/-/raw/master/hiper-windows-i386.exe
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\experience -N -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hiper-windows-i386.exe-update2.log https://gitcode.net/chearlai/hiper/-/raw/master/hiper-windows-i386.exe
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -t 10 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://cdn.githubraw.com/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/home.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft -N -S -T 4 -o %appdata%\hiper_launcher-play_minecraft\home.bat-update3.log https://cdn.githubraw.com/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/home.bat
 
 cls
 
