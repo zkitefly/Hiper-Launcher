@@ -28,7 +28,6 @@ echo.
 set /p mm=请输入 Hiper 启动模式：
 if “%mm%”==“0” call experience.bat
 if “%mm%”==“1” call token.bat
-if “%mm%”==“i” call installTab.bat
 
 :about
 @echo off
