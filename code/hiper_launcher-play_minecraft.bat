@@ -43,7 +43,7 @@ mode con cols=70 lines=15
 echo. 正在检查程序更新，可能需要一些时间...
 
 ::检查文件更新
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -N -P C:\Windows\Temp -S https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/update.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe -q -N -P C:\Windows\Temp -S https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/update.bat
 
 if not exist C:\Windows\Temp\update.bat goto nolink
 goto sater
@@ -56,7 +56,7 @@ color 4f
 
 echo  未能连接到文件服务器，正在尝试重新连接 
 echo      当前重试次数→%n%←(100次封顶)       
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -N -P C:\Windows\Temp -S https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/update.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe -q -N -P C:\Windows\Temp -S https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/update.bat
 if %n% GEQ 100 goto nofile
 goto nolink
 

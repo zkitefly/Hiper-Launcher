@@ -22,7 +22,10 @@ echo. ½« IP ºÍ¿ª·ÅµÄ¶Ë¿Ú×éºÏ³É IP:¶Ë¿Ú£¬Èç 6.11.210.233:25565 ,²¢½«´Ë·¢ËÍ¸ø¼ÓÈë·
 echo. ¼ÓÈë·½£º
 echo. ÔËÐÐ Hiper ºó£¬Æô¶¯ÓÎÏ·£¨Ðè·ÇÀëÏßÕË»§£©£¬½øÈë¡°¶àÈËÓÎÏ·¡±¡·¡°Ö±½ÓÁ¬½Ó¡±£¬ÊäÈë´´½¨·½·¢µÄÎÄ±¾¼ÓÈë¼´¿É£¡
 echo. 
-echo. ×¢Òâ£¬ÌåÑé°æºÍÆ¾Ö¤°æÊÇ²»»¥Í¨µÄ£¬Áª»úÊ±ÇëÓÃÏàÍ¬µÄ Hiper °æ±¾
+echo. ×¢ÒâÊÂÏî£º
+echo. - ÌåÑé°æºÍÆ¾Ö¤°æÊÇ²»»¥Í¨µÄ£¬Áª»úÊ±ÇëÓÃÏàÍ¬µÄ Hiper °æ±¾£»
+echo. - ´´½¨·½ºÍ¼ÓÈë·½Æ¾Ö¤Ðè²»ÏàÍ¬£»
+echo. - ÔÚÆô¶¯ Hiper Ê±ÐèÒªµÈ´ýÒ»Á½Èý·ÖÖÓ£¬ÔÚ´ËÆÚ¼ä¿ÉÄÜ»áÁ¬½Ó²»ÁË£¬ÇëÉÔºóÔÙÊÔ¡£
 echo. ÔÚ´Ë´¦¿ÉÒÔ²é¿´Ïà¹Ø³£¼ûÎÊÌâ£ºhttps://zkitefly.github.io/hiper-d/222.html
 echo. ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
 echo. °´ÈÎÒâ¼üÔËÐÐ Hiper ...
