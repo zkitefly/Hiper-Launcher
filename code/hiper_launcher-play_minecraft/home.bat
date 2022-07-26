@@ -18,7 +18,7 @@ color 1f
 
 cd %appdata%\hiper_launcher-play_minecraft\
 
-echo. 欢迎使用 Hiper Launcher - Play Minecraft v1.2
+echo. 欢迎使用 Hiper Launcher - Play Minecraft v1.3
 echo. 回车可查看本程序关于页面
 echo. 凭证可在 https://mcer.cn/shop 中购买，可加入QQ群：93365639，寻求帮助
 echo. 
@@ -28,6 +28,8 @@ echo.
 set /p mm=请输入 Hiper 启动模式：
 if “%mm%”==“0” call experience.bat
 if “%mm%”==“1” call token.bat
+if “%mm%”==“i” call installTab.bat
+if “%mm%”==“I” call installTab.bat
 if “%mm%”==“u” call update.bat
 if “%mm%”==“U” call update.bat
 

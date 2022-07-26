@@ -4,6 +4,8 @@ cls
 
 mode con cols=100 lines=30
 
+if not exist C:\Windows\System32\drivers\tap0901.sys call %appdata%\hiper_launcher-play_minecraft\installTab.bat
+
 echo. 正在检查 Hiper 更新，可能需要一些时间...
 
 %appdata%\hiper_launcher-play_minecraft\wget.exe  -q -N -P %appdata%\hiper_launcher-play_minecraft\experience -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hiper-windows-i386.exe-update2.log https://gitcode.net/chearlai/hiper/-/raw/master/hiper-windows-i386.exe
