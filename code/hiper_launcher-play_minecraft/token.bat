@@ -5,9 +5,9 @@ mode con cols=100 lines=30
 
 echo. ÕıÔÚ¼ì²é Hiper ¸üĞÂ£¬¿ÉÄÜĞèÒªÒ»Ğ©Ê±¼ä...
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -N -P %appdata%\hiper_launcher-play_minecraft\token -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr.exe-update.log  https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr.exe
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -N -P %appdata%\hiper_launcher-play_minecraft\token -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr.exe-update.log https://gitcode.net/to/hiper/-/raw/plus/windows/32bit/hpr.exe
 
-%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -N -P %appdata%\hiper_launcher-play_minecraft\token -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr_env.exe
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -N -P %appdata%\hiper_launcher-play_minecraft\token -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/to/hiper/-/raw/plus/windows/32bit/hpr_env.exe
 
 cls
 
@@ -23,6 +23,7 @@ echo. ÔËĞĞ Hiper ºó£¬Æô¶¯ÓÎÏ·£¨Ğè·ÇÀëÏßÕË»§£©£¬½øÈë¡°¶àÈËÓÎÏ·¡±¡·¡°Ö±½ÓÁ¬½Ó¡±£¬Ê
 echo. 
 echo. ×¢ÒâÊÂÏî£º
 echo. - ÌåÑé°æºÍÆ¾Ö¤°æÊÇ²»»¥Í¨µÄ£¬Áª»úÊ±ÇëÓÃÏàÍ¬µÄ Hiper °æ±¾£»
+echo. - ÄãÊ¹ÓÃµÄÆ¾Ö¤ĞèÒªÓëËûÈË²»Ò»Ñù£»
 echo. - ´´½¨·½ºÍ¼ÓÈë·½Æ¾Ö¤Ğè²»ÏàÍ¬£»
 echo. - ÔÚÆô¶¯ Hiper Ê±¿ÉÄÜĞèÒªµÈ´ıÒ»ÖÁÎå·ÖÖÓµÄ»º³åÊ±¼ä£¬ÔÚ´ËÆÚ¼ä¿ÉÄÜ»áÁ¬½Ó²»ÁË£¬ÇëµÈ´ı£¡
 echo. ÔÚ´Ë´¦¿ÉÒÔ²é¿´Ïà¹Ø³£¼ûÎÊÌâ£ºhttps://zkitefly.github.io/hiper-d/222.html
