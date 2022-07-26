@@ -24,7 +24,7 @@ echo.
 echo. 注意事项：
 echo. - 体验版和凭证版是不互通的，联机时请用相同的 Hiper 版本；
 echo. - 创建方和加入方凭证需不相同；
-echo. - 在第一次启动 Hiper 时需要等待一两三分钟，在此期间可能会连接不了，请稍后再试。
+echo. - 在启动 Hiper 时可能需要等待一至五分钟的缓冲时间，在此期间可能会连接不了，请等待！
 echo. 在此处可以查看相关常见问题：https://zkitefly.github.io/hiper-d/222.html
 echo. ————————————————————
 set /p tk=请输入 Hiper 凭证回车启动：
