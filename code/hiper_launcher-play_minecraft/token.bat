@@ -3,6 +3,14 @@
 cls
 mode con cols=100 lines=30
 
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr.exe-update.log  https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr.exe
+
+%appdata%\hiper_launcher-play_minecraft\wget.exe  -q -P %appdata%\hiper_launcher-play_minecraft\token -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/chearlai/hiper/-/raw/plus/windows/32bit/hpr_env.exe
+
+echo. 正在检查 Hiper 更新，可能需要一些时间...
+
+cls
+
 color 8b
 
 echo. 
