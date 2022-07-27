@@ -1,8 +1,6 @@
 @echo off
 cls
 
-mode con cols=100 lines=30
-
 if not exist C:\Windows\System32\drivers\tap0901.sys call %appdata%\hiper_launcher-play_minecraft\installTab.bat
 
 echo. 正在检查 Hiper 更新，可能需要一些时间...

@@ -1,6 +1,5 @@
 @echo off
 cls
-mode con cols=100 lines=30
 
 echo. 正在检查 Hiper 更新，可能需要一些时间...
 
