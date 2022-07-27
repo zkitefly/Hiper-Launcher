@@ -9,6 +9,9 @@ echo. ÕıÔÚ¼ì²é Hiper ¸üĞÂ£¬¿ÉÄÜĞèÒªÒ»Ğ©Ê±¼ä...
 
 %appdata%\hiper_launcher-play_minecraft\wget.exe  -q -N -P %appdata%\hiper_launcher-play_minecraft\token -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hpr_env.exe-update1.log https://gitcode.net/to/hiper/-/raw/plus/windows/32bit/hpr_env.exe
 
+goto run
+
+:run
 cls
 
 color 8b
@@ -29,6 +32,8 @@ echo. - ÔÚÆô¶¯ Hiper Ê±¿ÉÄÜĞèÒªµÈ´ıÒ»ÖÁÎå·ÖÖÓµÄ»º³åÊ±¼ä£¬ÔÚ´ËÆÚ¼ä¿ÉÄÜ»áÁ¬½Ó²»ÁË£
 echo. ÔÚ´Ë´¦¿ÉÒÔ²é¿´Ïà¹Ø³£¼ûÎÊÌâ£ºhttps://zkitefly.github.io/hiper-d/222.html
 echo. ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
 set /p tk=ÇëÊäÈë Hiper Æ¾Ö¤»Ø³µÆô¶¯£º
+
+if "%tk%"=="" goto run
 
 color 2f
 
