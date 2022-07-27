@@ -25,7 +25,7 @@ echo. 输入 a 回车可查看本程序关于页面
 echo. 凭证可在 https://mcer.cn/shop 中购买，可加入QQ群：93365639，寻求帮助
 echo. 
 echo. 输入 0 回车即运行 Hiper 30 分钟体验版本
-echo. 直接回车即运行 Hiper 凭证版本
+echo. 直接回车 或 输入 1 回车 即运行 Hiper 凭证版本
 echo.
 set /p mm=请输入 Hiper 启动模式：
 if “%mm%”==“0” call experience.bat
@@ -36,5 +36,6 @@ if “%mm%”==“U” call update.bat
 if “%mm%”==“a” call about.bat
 if “%mm%”==“A” call about.bat
 if “%mm%”==“” call token.bat
+if “%mm%”==“1” call token.bat
 
 goto home
