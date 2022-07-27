@@ -1,4 +1,3 @@
-:experience
 @echo off
 cls
 
@@ -9,6 +8,10 @@ if not exist C:\Windows\System32\drivers\tap0901.sys call %appdata%\hiper_launch
 echo. 正在检查 Hiper 更新，可能需要一些时间...
 
 %appdata%\hiper_launcher-play_minecraft\wget.exe  -q -N -P %appdata%\hiper_launcher-play_minecraft\experience -S -T 2 -o %appdata%\hiper_launcher-play_minecraft\hiper-windows-i386.exe-update2.log https://gitcode.net/to/hiper/-/raw/master/hiper-windows-i386.exe
+
+goto run
+
+:run
 
 cls
 
@@ -43,4 +46,4 @@ color 4f
 echo. 糟糕，Hiper非正常退出。可能是已超过30分钟试用期，请重新启动。若任然频繁出现，请复制以上日志发送至QQ群：93365639 ，进行反馈。
 echo. 按任意键重新启动...
 pause>nul
-goto experience
+goto run

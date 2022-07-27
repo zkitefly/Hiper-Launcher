@@ -1,4 +1,3 @@
-:token
 @echo off
 cls
 mode con cols=100 lines=30
@@ -51,4 +50,4 @@ echo. 糟糕，Hiper 非正常退出。请复制以上日志发送至QQ群：93365639 ，进行反馈。
 echo. 按任意键重新启动...
 pause>nul
 
-goto token
+goto run
