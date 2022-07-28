@@ -41,7 +41,6 @@ if "%tk%"=="" goto run
 
 color 2f
 
-echo. 以下是 Hiper 运行日志：
 echo ------------------------------------------ Hiper 运行日志 ----------------------------------------------
 cd %appdata%\hiper_launcher-play_minecraft\token
 
