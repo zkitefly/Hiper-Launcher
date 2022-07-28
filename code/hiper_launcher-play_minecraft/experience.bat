@@ -37,13 +37,16 @@ pause>nul
 color 2f
 
 echo 以下是 Hiper 运行日志：
+
+cd %appdata%\hiper_launcher-play_minecraft\experience\
+
 @echo on
-call %appdata%\hiper_launcher-play_minecraft\experience\hiper-windows-i386.exe v
+call hiper-windows-i386.exe v
 @echo off
 
 color 4f
 
-echo. 糟糕，Hiper非正常退出。可能是已超过30分钟试用期，请重新启动。若任然频繁出现，请复制以上日志发送至QQ群：93365639 ，进行反馈。
+echo. 糟糕，Hiper非正常退出。有可能是已超过30分钟试用期，请重新启动。若任然频繁出现，请复制以上日志发送至QQ群：93365639 ，进行反馈。
 echo. 按任意键重新启动...
 pause>nul
 goto run
