@@ -15,7 +15,7 @@ color 1f
 
 cd %appdata%\hiper_launcher-play_minecraft\
 
-echo. 欢迎使用 Hiper Launcher - Play Minecraft v1.4
+echo. 欢迎使用 Hiper Launcher - Play Minecraft v1.5
 echo. 输入 a 回车可查看本程序关于页面
 echo. 凭证可在 https://mcer.cn/shop 中购买，可加入QQ群：93365639，寻求帮助
 echo. 
