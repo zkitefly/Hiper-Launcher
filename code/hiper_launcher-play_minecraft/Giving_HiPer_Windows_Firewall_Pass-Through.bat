@@ -1,6 +1,8 @@
 @echo off
 
-if not exist C:\Giving_HiPer_Windows_Firewall_Pass-Through.txt goto add
+cls
+
+if not exist C:\Set_HiPer_Windows_Firewall_to_pass_successfully.txt goto add
 goto ok
 
 :add
@@ -12,10 +14,14 @@ netsh advfirewall firewall add rule name="hpr_env" dir=in action=allow program="
 
 netsh advfirewall firewall add rule name="wintun" dir=in action=allow program="%appdata%\Roaming\hiper_launcher-play_minecraft\token\wintun.dll" enable=yes
 
-echo >>C:\Giving_HiPer_Windows_Firewall_Pass-Through.txt
+echo >>C:\Set_HiPer_Windows_Firewall_to_pass_successfully.txt
 
-echo. 已添加 HiPer 和 虚拟网卡 的防火墙通行权限
-timeout /T 3
+echo. -----------------------------------------------------------------------------------------------------------------------
+echo  =                                                                                                                     =
+echo. =                                   已添加 HiPer 本体和 虚拟网卡 的防火墙通行权限                                     =
+echo  =                                                                                                                     =
+echo. -----------------------------------------------------------------------------------------------------------------------
+timeout /T 5
 goto ok
 
 :ok
