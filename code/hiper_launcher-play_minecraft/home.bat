@@ -1,17 +1,14 @@
 @echo off
 
-::设置标题
+if not exist C:\Giving_HiPer_Windows_Firewall_Pass-Through.txt call %appdata%\hiper_launcher-play_minecraft\Giving_HiPer_Windows_Firewall_Pass-Through.bat
+goto add_ok
+
+:add_ok
 title Hiper Launcher - Play Minecraft
-
-::设置窗口大小
 mode con cols=70 lines=14
-
-del /f /s /q C:\Windows\Temp\update.bat
-
 goto home
 
 :home
-
 cls
 
 color 1f
