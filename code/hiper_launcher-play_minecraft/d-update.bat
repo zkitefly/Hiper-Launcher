@@ -1,6 +1,6 @@
 @echo off
 
-set /P v=<%appdata%\hiper_launcher-play_minecraftv.txt
+set /P v=<%appdata%\hiper_launcher-play_minecraft\v.txt
 
 ::ÉèÖÃ±êÌâ
 title Update...

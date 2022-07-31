@@ -5,7 +5,7 @@ goto add_ok
 
 :add_ok
 title Hiper Launcher - Play Minecraft
-mode con cols=90 lines=20
+
 goto home
 
 :home
@@ -29,11 +29,11 @@ echo.---------------------------------------------------------------------------
 set /p mm=请输入选项回车：
 if “%mm%”==“0” start experience.bat
 
-if “%mm%”==“i” start installTab.bat
-if “%mm%”==“I” start installTab.bat
+if “%mm%”==“i” call installTab.bat
+if “%mm%”==“I” call installTab.bat
 
-if “%mm%”==“u” start update.bat
-if “%mm%”==“U” start update.bat
+if “%mm%”==“u” call update.bat
+if “%mm%”==“U” call update.bat
 
 if “%mm%”==“a” call about.bat
 if “%mm%”==“A” call about.bat
