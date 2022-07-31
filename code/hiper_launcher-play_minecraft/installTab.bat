@@ -30,6 +30,6 @@ echo.---------------------------------------------------------------------------
 echo. 按任意键继续...
 
 @echo off
-timeout /T 3
+timeout /T 5
 
 call %appdata%\hiper_launcher-play_minecraft\experience.bat
