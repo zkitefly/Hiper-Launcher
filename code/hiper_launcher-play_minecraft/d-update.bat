@@ -48,7 +48,7 @@ exit
 :checkupdata
 set /P v=<%temp%\v.txt
 
-if ¡°%v%¡±==¡°1.5.2¡± goto donotupdata
+if ¡°%v%¡±==¡°1.6¡± goto donotupdata
 goto updata
 
 :update  
