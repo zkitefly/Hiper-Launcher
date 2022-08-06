@@ -51,7 +51,7 @@ set /P v=<%temp%\v.txt
 if ¡°%v%¡±==¡°1.6¡± goto donotupdata
 goto updata
 
-:update  
+:updata 
 %appdata%\hiper_launcher-play_minecraft\wget.exe -q -N -T 5 -P %appdata%\hiper_launcher-play_minecraft -S https://gitee.com/bleaker/hiper-launcher/raw/main/code/hiper_launcher-play_minecraft/update2.bat
 
 if not exist %appdata%\hiper_launcher-play_minecraft\update2.bat goto noupdatalink
