@@ -46,7 +46,7 @@ pause
 exit
 
 :checkupdata
-set /P v=<%temp%\v.txt
+set /P v=<%appdata%\hiper_launcher-play_minecraft\v.txt
 
 if ¡°%v%¡±==¡°1.6¡± goto donotupdata
 goto updata
