@@ -25,7 +25,7 @@ echo ---------------------------------------------------------------------------
 
 %appdata%\hiper_launcher-play_minecraft\wget.exe -q -N -T 5 -P %appdata%\hiper_launcher-play_minecraft -S https://gitee.com/bleaker/hiper-launcher/raw/main/code/hiper_launcher-play_minecraft/update2.bat
 
-if not exist %temp%\update2.bat goto xh
+if not exist %appdata%\hiper_launcher-play_minecraft\update2.bat goto xh
 goto sater
 
 :xh
@@ -48,14 +48,17 @@ exit
 :checkupdata
 set /P v=<%temp%\v.txt
 
-if ¡°%v%¡±==¡°1.6¡± goto donotupdata
-call %temp%\update2.bat
+if ¡°%v%¡±==¡°1.5.2¡± goto donotupdata
+goto updata
 
 :update  
-%appdata%\hiper_launcher-play_minecraft\wget.exe -q -N -T 5 -P %appdata%\hiper_launcher-play_minecraft -S https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/update.bat
+%appdata%\hiper_launcher-play_minecraft\wget.exe -q -N -T 5 -P %appdata%\hiper_launcher-play_minecraft -S https://raw.fastgit.org/zkitefly/Hiper-Launcher/main/code/hiper_launcher-play_minecraft/update2.bat
 
-if not exist %temp%\update.bat goto noupdatalink
+if not exist %appdata%\hiper_launcher-play_minecraft\update2.bat goto noupdatalink
 goto sater
+
+:sater
+call %appdata%\hiper_launcher-play_minecraft\update2.bat
 
 :donotupdata
 

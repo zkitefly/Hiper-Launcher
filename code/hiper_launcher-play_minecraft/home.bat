@@ -20,9 +20,7 @@ echo.
 echo.          凭证可在 https://mcer.cn/shop 中购买，可加入QQ群：93365639，寻求帮助           
 echo.
 echo.-------------------------------------此版本更新内容---------------------------------------
-echo.
 echo.             1.隐藏Hiper_plus渠道（为凭证渠道）2.更新、适配Hiper，有好的体验                
-echo.
 echo.--------------------------------------↓↓选项↓↓----------------------------------------
 echo.
 echo.                             输入→a←可查看本程序关于页面                               
@@ -33,7 +31,7 @@ echo.
 echo.------------------------------------------------------------------------------------------
 echo.
 set /p mm=请输入选项回车：
-if “%mm%”==“0” start hiper.bat
+if “%mm%”==“0” call hiper.bat
 
 if “%mm%”==“u” call update.bat
 if “%mm%”==“U” call update.bat
@@ -41,8 +39,8 @@ if “%mm%”==“U” call update.bat
 if “%mm%”==“a” call about.bat
 if “%mm%”==“A” call about.bat
 
-if “%mm%”==“1” start hiper_plus.bat
+if “%mm%”==“1” call hiper_plus.bat
 
-if “%mm%”==“fhq” start Giving_HiPer_Windows_Firewall_Pass-Through.bat
+if “%mm%”==“fhq” call Giving_HiPer_Windows_Firewall_Pass-Through.bat
 
 goto home

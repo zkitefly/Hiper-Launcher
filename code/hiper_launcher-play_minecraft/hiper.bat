@@ -246,7 +246,7 @@ echo.
 echo. 【按任意键运行→】
 pause>nul
 
-start %appdata%\hiper_launcher-play_minecraft\runhiper.bat
+start %appdata%\hiper_launcher-play_minecraft\runhiper.exe
 
 echo.
 echo.
@@ -441,7 +441,7 @@ echo.
 echo. 【按任意键运行→】
 pause>nul
 
-start %appdata%\hiper_launcher-play_minecraft\runhiper.bat
+start %appdata%\hiper_launcher-play_minecraft\runhiper.exe
 
 echo.
 echo.
